@@ -26,7 +26,7 @@ app.get('/tour', function(req, res){
   res.render('tourdates');
 });
 
-app.listen(proces.env.PORT, function(){
+app.listen(process.env.PORT, function(){
   console.log('Yeezy is in the house...');
 });
 
